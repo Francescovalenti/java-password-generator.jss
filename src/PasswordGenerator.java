@@ -13,17 +13,17 @@ public class PasswordGenerator {
         System.out.println("Inserisci il tuo colore preferito:");
         String colorePreferito = input.nextLine();
         System.out.println("Inserisci il tuo giorno di nascita:");
-        String giornoNascitaInserito = input.nextLine();
-        int giornoNascita = Integer.parseInt (giornoNascitaInserito);
+        String giorno = input.nextLine();
+        int giornoInserito = Integer.parseInt (giorno);
         System.out.println("Inserisci il tuo mese di nascita:");
-        String meseNascitaInserito = input.nextLine();
-        int meseNascita = Integer.parseInt (meseNascitaInserito);
+        String mese = input.nextLine();
+        int meseInserito = Integer.parseInt (mese);
         System.out.println("Inserisci il tuo anno di nascita:");
-        String annoNascitaInserito = input.nextLine();
-        int annoNascita = Integer.parseInt (annoNascitaInserito);
+        String anno= input.nextLine();
+        int annoInserito = Integer.parseInt (anno);
 
         // calcola somma
-        int sommaNascita= giornoNascita + meseNascita + annoNascita;
+        int sommaNascita= giornoInserito + meseInserito + annoInserito;
 
         // passwordfinale output
 
